@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Ubuntu:ital@1&display=swap');
+#CommentBorder{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    max-width: 75%;
+    height: auto;
+    border: 1.8px solid black;
+}
+textarea {
+    resize: none;
+ }
+#Submit{
+     margin-top: 30px;
+ }
+ #name{
+     width: 250px;
+     height: 50px;
+     font-size: 20px;
+ outline: black;
+ }
+ #name:focus{
+    outline: black;
+}
+#name:hover{
+   outline: black;
+}
+#email{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    outline: black;
+}
+#email:focus{
+    outline: black;
+}
+#email:hover{
+    outline: black;
+}
+#textfield{
+    font-size: 20px;
+    margin-top: 50px;
+    outline: black;
+}
+#textfield:hover{
+    outline: black;
+}
+#textfield:focus{
+    outline: black;
+}
+#basket{
+    border: 1px solid black;
+width: 120px;
+ height: 30px;
+margin-top: 20px;
+outline: 0;
+outline: black;
+background-color: black;
+color: white;
+transition: 2.1s;
+}
+#basket:hover{
+    border: 1px solid black;
+ transition: 2.1s;
+ outline: black;
+background-color: white;
+color: black;
+border-radius: 14px;
+}
+@media screen and (max-width:760px) {
+    #email{
+        width: 99%;
+    }
+    #name{
+        margin-top: 30px;
+        width: 99%;
+    }
+    #textfield{
+        margin-top: 30px;
+    }
+    #CommentBorder{
+        max-width: 99%;
+    }
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+::selection {
+    color:rgb(255, 255, 255);
+    background:rgb(145, 0, 189);
+}
+::-moz-selection {
+    color:rgb(255, 255, 255);
+    background:rgb(153, 0, 255);
+}
+/* © 2021 | Gezegen Digital All Rights Reserved.*/
